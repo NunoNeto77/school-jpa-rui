@@ -1,0 +1,21 @@
+springdoc:
+  swagger-ui:
+    path: /swagger-ui.html
+
+spring:
+
+  application:
+    name: school application
+
+  datasource:
+    url: jdbc:postgresql://localhost:5432/school_database
+    username: nunoneto
+    password:
+
+  jpa:
+    hibernate:
+      ddl-auto: create-drop
+    show-sql: true
+    properties:
+      hibernate:
+        format_sql: true
